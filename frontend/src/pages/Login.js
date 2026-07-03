@@ -92,7 +92,21 @@ export default function Login() {
             {loading ? "Signing In..." : "Sign In"}
           </button>
         </form>
+        <div className="demo-credentials">
+  <h4>Demo Credentials</h4>
 
+  <div className="demo-box">
+    <strong>Admin Login</strong>
+    <p>Email: devashishtripathi768@gmail.com</p>
+    <p>Password: vashu2a</p>
+  </div>
+
+  <div className="demo-box">
+    <strong>Resident Login</strong>
+    <p>Email: devashishtripathi769@gmail.com</p>
+    <p>Password: devanu13</p>
+  </div>
+</div>
         <div className="auth-footer">
           Don't have an account?
           <Link to="/register">
